@@ -58,10 +58,8 @@
 		2F065AF828EECC8E0015A30E /* Moonshot */ = {
 			isa = PBXGroup;
 			children = (
-				2F065AF928EECC8E0015A30E /* MoonshotApp.swift */,
-				2F065AFB28EECC8E0015A30E /* ContentView.swift */,
-				2F065AFD28EECC8F0015A30E /* Assets.xcassets */,
-				2F065AFF28EECC8F0015A30E /* Moonshot.entitlements */,
+				2F065B0C28EECD350015A30E /* App */,
+				2F065B0D28EECD420015A30E /* UI */,
 				2F065B0028EECC8F0015A30E /* Preview Content */,
 			);
 			path = Moonshot;
@@ -73,6 +71,24 @@
 				2F065B0128EECC8F0015A30E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F065B0C28EECD350015A30E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2F065AF928EECC8E0015A30E /* MoonshotApp.swift */,
+				2F065AFD28EECC8F0015A30E /* Assets.xcassets */,
+				2F065AFF28EECC8F0015A30E /* Moonshot.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2F065B0D28EECD420015A30E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2F065AFB28EECC8E0015A30E /* ContentView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Moonshot/Moonshot.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Moonshot/App/Moonshot.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Moonshot/Preview Content\"";
@@ -307,7 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Moonshot/Moonshot.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Moonshot/App/Moonshot.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Moonshot/Preview Content\"";
